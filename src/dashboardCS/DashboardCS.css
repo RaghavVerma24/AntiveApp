@@ -1,0 +1,13 @@
+.DashboardCSPage {
+  text-align: center;
+}
+
+.DashboardCSpngpic {
+  width: 100%;
+  height: auto;
+  max-width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: default;
+}

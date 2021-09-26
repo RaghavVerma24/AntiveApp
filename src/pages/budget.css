@@ -1,0 +1,53 @@
+.budget {
+  /* background-color: #f5f5f5; */
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  /* margin-top: 5%; */
+  height: auto;
+  /* background-color: yellow; */
+  margin-left: 2.4rem;
+}
+
+@media screen and (max-height: 554px) {
+  .budget {
+    margin-left: 0rem;
+  }
+}
+
+.BudgetTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  /* margin-top: 20px; */
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  /* z-index: 99999999999999999999; */
+  margin-left: 4.1rem;
+  border-bottom: 2px solid #081225;
+  /* border-left: 2px solid #081225; */
+  width: auto;
+  color: #edeeee;
+  /* background-color: yellow; */
+  height: 80px;
+  /* width: auto; */
+}
+
+@media screen and (max-height: 554px) {
+  .BudgetTitle {
+    padding-top: 60px;
+    height: 150px;
+    margin-left: 1.7rem;
+  }
+}
+
+.BudgetTitle:hover {
+  cursor: default;
+  border-bottom: 2px solid #edeeee;
+  transition: all 0.5s ease-in-out;
+}
+
+.BudgetName {
+  margin-top: 2rem;
+}

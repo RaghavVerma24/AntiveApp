@@ -1,0 +1,900 @@
+.OfficialLoginContainer {
+  display: flex;
+  width: 80%;
+  height: 100vh;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .OfficialLoginContainer {
+    height: 100vh;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-height: 530px) {
+  .OfficialLoginContainer {
+    height: 100vh;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+.OfficialLoginLeftContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #090e14;
+  height: 94%;
+  border-radius: 10px 0 0 10px;
+  /* border: 2px solid #edeeee; */
+}
+
+@media screen and (max-width: 1150px) {
+  .OfficialLoginLeftContainer {
+    display: none;
+  }
+}
+
+.OfficialLoginLogo {
+  color: #edeeee;
+  justify-self: flex-start;
+  cursor: pointer;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  /* background: transparent; */
+  top: 2.7rem;
+  margin-left: 2.7rem;
+  position: absolute;
+  z-index: 999;
+}
+
+.OfficialLoginSubtitle {
+  color: #868ba0;
+  cursor: pointer;
+  font-size: 0.95rem;
+  /* display: flex; */
+  /* align-items: center; */
+  text-decoration: none;
+  background: transparent;
+  /* margin-top: 5.75rem; */
+  margin-left: 2.7rem;
+  /* z-index: 1; */
+}
+
+.Officialform-imgL {
+  width: 400px;
+  height: 100%;
+  margin-left: 3.6rem;
+  /* background-color: black; */
+}
+
+.NeedAndAccount {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #868ba0;
+  width: 80%;
+  text-align: start;
+  background: transparent;
+  position: absolute;
+  top: 90%;
+  z-index: 17;
+  margin-left: 2.7rem;
+}
+
+.OfficialLoginRightContainer {
+  border-radius: 0px 10px 10px 0px;
+  background-color: #edeeee;
+  z-index: 999;
+  width: 50%;
+  height: 94%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid #edeeee; */
+}
+
+@media screen and (max-width: 1150px) {
+  .OfficialLoginRightContainer {
+    border-radius: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 950px) and (max-height: 570px) {
+  .OfficialLoginRightContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+  }
+}
+/* @media screen and (max-height: 560px) {
+  .OfficialLoginRightContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+  }
+} */
+
+.OfficialLoginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.OfficialLoginTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: start;
+  width: 80%;
+  margin-bottom: 1rem;
+  margin-top: 2.7rem;
+  margin-left: 2.7rem;
+  color: #090e14;
+  background: transparent;
+}
+
+@media screen and (max-width: 950px) and (max-height: 570px) {
+  .OfficialLoginTitle {
+    color: #edeeee;
+  }
+}
+
+.OfficialLoginTitleSubTitle {
+  margin-left: 2.7rem;
+  background: transparent;
+  padding-bottom: 20px;
+  margin-bottom: 5rem;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  width: 80%;
+  color: grey;
+  background: transparent;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 950px) and (max-height: 570px) {
+  .OfficialLoginTitleSubTitle {
+    margin-bottom: 1rem;
+  }
+}
+
+.OfficialerrorL {
+  background: transparent;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
+
+.Officialform-inputsL {
+  margin-bottom: 0.5rem;
+  width: 80%;
+  background: transparent;
+  align-content: center;
+  align-items: center;
+  text-align: middle;
+  margin-left: 2.7rem;
+}
+
+.Officialform-labelL {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 1px;
+  color: #090e14;
+  font-weight: bold;
+  background: transparent;
+}
+
+@media screen and (max-width: 950px) and (max-height: 570px) {
+  .Officialform-labelL {
+    color: #edeeee;
+  }
+}
+
+.Officialform-inputL {
+  display: block;
+  padding-left: 0px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+}
+
+.Officialform-inputL::placeholder {
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.Officialform-input-btnL {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #282c40;
+  outline: none;
+  margin-left: 2.7rem;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+}
+.Officialform-input-btnL:hover {
+  cursor: pointer;
+  background: #090e14;
+  color: #fff;
+  border: 2px solid #edeeee;
+  transition: all 0.2s ease-out;
+}
+
+.Officialform-input-btn-googleL {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #282c40;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  text-align: center;
+  margin-left: 2.7rem;
+}
+
+.Officialform-input-btn-googleL:hover {
+  cursor: pointer;
+  background: #090e14;
+  color: #fff;
+  border: 2px solid #edeeee;
+  transition: all 0.2s ease-out;
+}
+
+.OfficialgooglebtntextL {
+  margin: auto;
+  width: 50%;
+}
+
+.OfficialforgotpassL {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: 80%;
+  text-align: start;
+  background: transparent;
+  padding-top: 10px;
+  margin-left: 2.7rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.OfficialforgotpasstextL {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: auto;
+  text-align: center;
+  background: transparent;
+  padding-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.OfficialNeedAccounttextL {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: auto;
+  text-align: center;
+  background: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  /* text-align: right;
+    float: right; */
+}
+
+@media screen and (min-width: 1150px) {
+  .OfficialNeedAccounttextL {
+    display: none;
+  }
+}
+
+/*Login Css Version 1 */
+
+/* .OfficialLoginContainer {
+  display: flex;
+  width: 80%;
+  height: 100vh;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .OfficialLoginContainer {
+    height: 100vh;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-height: 530px) {
+  .OfficialLoginContainer {
+    height: 100vh;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+.OfficialLoginLeftContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #090e14;
+  height: 94%;
+  border-radius: 10px 0 0 10px;
+}
+
+@media screen and (max-width: 1150px) {
+  .OfficialLoginLeftContainer {
+    display: none;
+  }
+}
+
+.OfficialLoginLogo {
+  color: #edeeee;
+  justify-self: flex-start;
+  cursor: pointer;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  top: 2.7rem;
+  margin-left: 2.7rem;
+  position: absolute;
+  z-index: 999;
+}
+
+.OfficialLoginSubtitle {
+  color: #868ba0;
+  cursor: pointer;
+  font-size: 0.95rem;
+  text-decoration: none;
+  background: transparent;
+  margin-left: 2.7rem;
+}
+
+.Officialform-imgL {
+  width: 400px;
+  height: 100%;
+  margin-left: 3.6rem;
+}
+
+.NeedAndAccount {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #868ba0;
+  width: 80%;
+  text-align: start;
+  background: transparent;
+  position: absolute;
+  top: 90%;
+  z-index: 17;
+  margin-left: 2.7rem;
+}
+
+.OfficialLoginRightContainer {
+  border-radius: 0px 10px 10px 0px;
+  background-color: #edeeee;
+  z-index: 999;
+  width: 50%;
+  height: 94%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1150px) {
+  .OfficialLoginRightContainer {
+    border-radius: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) and (max-height: 560px) {
+  .OfficialLoginRightContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+  }
+}
+
+.OfficialLoginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.OfficialLoginTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: start;
+  width: 80%;
+  margin-bottom: 1rem;
+  margin-top: 2.7rem;
+  margin-left: 2.7rem;
+  color: #090e14;
+  background: transparent;
+}
+
+@media screen and (max-width: 500px) and (max-height: 560px) {
+  .OfficialLoginTitle {
+    color: #edeeee;
+  }
+}
+
+.OfficialLoginTitleSubTitle {
+  margin-left: 2.7rem;
+  background: transparent;
+  padding-bottom: 20px;
+  margin-bottom: 5rem;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  width: 80%;
+  color: grey;
+  background: transparent;
+  text-decoration: none;
+}
+
+.OfficialerrorL {
+  background: transparent;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
+
+.Officialform-inputsL {
+  margin-bottom: 0.5rem;
+  width: 80%;
+  background: transparent;
+  align-content: center;
+  align-items: center;
+  text-align: middle;
+  margin-left: 2.7rem;
+}
+
+.Officialform-labelL {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 1px;
+  color: #090e14;
+  font-weight: bold;
+  background: transparent;
+}
+
+@media screen and (max-width: 500px) and (max-height: 560px) {
+  .Officialform-labelL {
+    color: #edeeee;
+  }
+}
+
+.Officialform-inputL {
+  display: block;
+  padding-left: 0px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+}
+
+.Officialform-inputL::placeholder {
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.Officialform-input-btnL {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #282c40;
+  outline: none;
+  margin-left: 2.7rem;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+}
+.Officialform-input-btnL:hover {
+  cursor: pointer;
+  background: #090e14;
+  color: #fff;
+  border: 2px solid #edeeee;
+  transition: all 0.2s ease-out;
+}
+
+.Officialform-input-btn-googleL {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #282c40;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  text-align: center;
+  margin-left: 2.7rem;
+}
+
+.Officialform-input-btn-googleL:hover {
+  cursor: pointer;
+  background: #090e14;
+  color: #fff;
+  border: 2px solid #edeeee;
+  transition: all 0.2s ease-out;
+}
+
+.OfficialgooglebtntextL {
+  margin: auto;
+  width: 50%;
+}
+
+.OfficialforgotpassL {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: 80%;
+  text-align: start;
+  background: transparent;
+  padding-top: 10px;
+  margin-left: 2.7rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.OfficialforgotpasstextL {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: auto;
+  text-align: center;
+  background: transparent;
+  padding-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.OfficialNeedAccounttextL {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: auto;
+  text-align: center;
+  background: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1150px) {
+  .OfficialNeedAccounttextL {
+    display: none;
+  }
+} */
+
+/*Login Css Version 2 */
+
+/* .OfficialLoginContainer {
+  display: flex;
+  width: 80%;
+  height: 100vh;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+
+.OfficialLoginLeftContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #090e14;
+  height: 94%;
+  border-radius: 10px 0 0 10px;
+}
+
+@media screen and (max-width: 1150px) {
+  .OfficialLoginLeftContainer {
+    display: none;
+  }
+}
+
+.OfficialLoginLogo {
+  color: #edeeee;
+  justify-self: flex-start;
+  cursor: pointer;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  top: 2.7rem;
+  margin-left: 2.7rem;
+  position: absolute;
+  z-index: 999;
+}
+
+.OfficialLoginSubtitle {
+  color: #868ba0;
+  cursor: pointer;
+  font-size: 0.95rem;
+  text-decoration: none;
+  background: transparent;
+  margin-left: 2.7rem;
+}
+
+.Officialform-imgL {
+  width: 400px;
+  height: 100%;
+  margin-left: 3.6rem;
+}
+
+.NeedAndAccount {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #868ba0;
+  width: 80%;
+  text-align: start;
+  background: transparent;
+  position: absolute;
+  top: 90%;
+  z-index: 17;
+  margin-left: 2.7rem;
+}
+
+.OfficialLoginRightContainer {
+  border-radius: 0px 10px 10px 0px;
+  background-color: #edeeee;
+  z-index: 999;
+  width: 50%;
+  height: 94%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1150px) {
+  .OfficialLoginRightContainer {
+    border-radius: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 555px) {
+  .OfficialLoginRightContainer {
+    height: 100vh;
+    vertical-align: middle;
+  }
+}
+
+.OfficialLoginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-height: 555px) {
+  .OfficialLoginForm {
+    margin-top: auto;
+  }
+}
+
+.OfficialLoginTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: start;
+  width: 94%;
+  margin-bottom: 1rem;
+  margin-top: 2.7rem;
+  margin-left: 2.7rem;
+  color: #090e14;
+  background: transparent;
+}
+
+@media screen and (max-width: 470px) {
+  .OfficialLoginTitle {
+    text-align: center;
+  }
+}
+
+@media screen and (max-height: 555px) {
+  .OfficialLoginTitle {
+    display: none;
+  }
+}
+
+.OfficialLoginTitleSubTitle {
+  margin-left: 2.7rem;
+  background: transparent;
+  padding-bottom: 20px;
+  margin-bottom: 5rem;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  width: 80%;
+  color: grey;
+  background: transparent;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 470px) {
+  .OfficialLoginTitleSubTitle {
+    text-align: center;
+  }
+}
+
+@media screen and (max-height: 555px) {
+  .OfficialLoginTitleSubTitle {
+    display: none;
+  }
+}
+
+.OfficialerrorL {
+  background: transparent;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
+
+.Officialform-inputsL {
+  margin-bottom: 0.5rem;
+  width: 80%;
+  background: transparent;
+  align-content: center;
+  align-items: center;
+  text-align: middle;
+  margin-left: 2.7rem;
+}
+
+.Officialform-labelL {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 1px;
+  color: #090e14;
+  font-weight: bold;
+  background: transparent;
+}
+
+.Officialform-inputL {
+  display: block;
+  padding-left: 0px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+}
+
+.Officialform-inputL::placeholder {
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.Officialform-input-btnL {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #282c40;
+  outline: none;
+  margin-left: 2.7rem;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+}
+.Officialform-input-btnL:hover {
+  cursor: pointer;
+  background: #090e14;
+  color: #fff;
+  border: 2px solid #edeeee;
+  transition: all 0.2s ease-out;
+}
+
+.Officialform-input-btn-googleL {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #282c40;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  text-align: center;
+  margin-left: 2.7rem;
+}
+
+.Officialform-input-btn-googleL:hover {
+  cursor: pointer;
+  background: #090e14;
+  color: #fff;
+  border: 2px solid #edeeee;
+  transition: all 0.2s ease-out;
+}
+
+.OfficialgooglebtntextL {
+  margin: auto;
+  width: 50%;
+}
+
+.OfficialforgotpassL {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: 80%;
+  text-align: start;
+  background: transparent;
+  padding-top: 10px;
+  margin-left: 2.7rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.OfficialforgotpasstextL {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: auto;
+  text-align: center;
+  background: transparent;
+  padding-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.OfficialNeedAccounttextL {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: auto;
+  text-align: center;
+  background: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1150px) {
+  .OfficialNeedAccounttextL {
+    display: none;
+  }
+} */

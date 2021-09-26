@@ -1,0 +1,261 @@
+/* .loginPageF {
+  background-color: #1a1a1a;
+  margin-top: -100px;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+} */
+.form-containerF {
+  margin: 100px auto;
+  width: 1000px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  /* position: relative; */
+  border-radius: 10px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-height: 768px) {
+  .form-containerF {
+  margin-top: auto;
+  width: 1000px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+}
+
+.close-btnF {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  font-size: 1.5rem;
+  z-index: 1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-content-leftF {
+  background: #282c40;
+  border-radius: 10px 0 0 10px;
+  position: relative;
+
+  /* @media (max-width: 768px) {
+        display: none;
+      } */
+}
+
+.form-imgF {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: transparent;
+  transform: translate(-50%, -50%);
+
+  /* @media (max-width: 768px) {
+        display: none;
+      } */
+}
+
+.form-content-rightF {
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  background-color: white;
+  z-index: 999;
+}
+
+.formF {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.formF h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: start;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: #282c40, 100%;
+  background: transparent;
+  /* position: fixed; */
+}
+
+.WelcomBackF {
+  background: transparent;
+  padding-bottom: 20px;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  width: 80%;
+  color: rgba(40, 44, 64, 0.6);
+  background: transparent;
+  text-decoration: none;
+  /* position: fixed; */
+}
+
+.form-inputsF {
+  margin-bottom: 0.5rem;
+  width: 80%;
+  background: transparent;
+}
+
+.form-inputsF p {
+  font-size: 0.8rem;
+  padding-bottom: -0px;
+  color: #f00e0e;
+  background: transparent;
+}
+
+.form-labelF {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 1px;
+  color: black;
+  font-weight: bold;
+  background: transparent;
+}
+
+.form-inputF {
+  display: block;
+  padding-left: 0px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+}
+
+.form-inputF::placeholder {
+  color: #595959;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.form-input-btnF {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #282c40;
+  outline: none;
+  /* border-color: #282C40; */
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.form-input-btnF:hover {
+  cursor: pointer;
+  background: #191919;
+  color: #fff;
+  border: 10px;
+  transition: all 0.2s ease-out;
+}
+
+.form-input-loginF {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #868ba0;
+  width: 80%;
+  text-align: start;
+  background: transparent;
+  position: absolute;
+  top: 90%;
+  z-index: 17;
+  margin-left: 2.7rem;
+}
+
+.form-input-loginF a {
+  text-decoration: none;
+  color: rgb(196, 190, 190);
+  font-weight: 600;
+  background: transparent;
+}
+
+/* .forgotpass {
+      font-size: 0.8rem;
+      margin-top: 0px;
+      color: #868BA0;
+      width: 80%;
+      text-align: start;
+      background: transparent;
+      padding-top: 10px;
+    } */
+
+.forgotpasstextF {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: 80%;
+  text-align: start;
+  background: transparent;
+  padding-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forgotpasstextF:hover {
+  text-decoration: none;
+}
+
+.logobtnF {
+  color: #ff7c5d;
+  justify-self: flex-start;
+  cursor: pointer;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  background: transparent;
+  top: 2.7rem;
+  margin-left: 2.7rem;
+  position: absolute;
+  z-index: 999;
+}
+
+.subtextoneF {
+  color: #868ba0;
+  justify-self: flex-start;
+  cursor: pointer;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: transparent;
+  margin-top: 5.75rem;
+  margin-left: 2.7rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.error1 {
+  background: transparent;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}

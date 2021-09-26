@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("../Notes/components/DisplayNotes/DisplayNotes.css");
+@import url("../Notes/components/NewNote/NewNote.css");
+@import url("../Notes/components/Helpers/NoteBody.css");
+@import url("../Notes/components/Helpers/NoteTitle.css");
+@import url("../Notes/components/Helpers/NoteFooter.css");
+@import url("../Notes/components/DisplayNotes/NoteCard.css");
+@import url("../Notes/components/EditNote/EditNote.css");
+@import url("../Notes/components/Helpers/NoteFooterHelpers/ColourPicker.css");
+@import url("../Notes/components/Helpers/NoteFooterHelpers/LabelSelector.css");
+@import url("../Notes/components/SidePannel/EditLabel.css");
+@import url("../Notes/components/SidePannel/SidePannel.css");
+@import url("../Notes/components/HeaderNotes/HeaderNotes.css");
+
+:root {
+    --primary-colour: #202124;
+    --secondary-colour: #e8eaed;
+}
+
+.AppNotes {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    color: var(--secondary-colour);
+    background-color: var(--primary-colour);
+    outline: none;
+    font-size: 1rem;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.main-container {
+    margin-top: 6em;
+    margin-left: 23.125em;
+    min-height: 96vh;
+}

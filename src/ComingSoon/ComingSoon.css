@@ -1,0 +1,52 @@
+.ComingSoonPage {
+    text-align: center;
+  }
+  
+  .ComingSoonpngpic {
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: default;
+  }
+  
+  .ComingSoonOops {
+    font-weight: 800;
+    color: #090E14;
+    margin-bottom: 8px;
+  }
+
+  .ComingSoonOops:hover {
+    font-weight: 800;
+    color: #EDEEEE;
+    margin-bottom: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: default;
+  }
+  
+  .ComingSoonThisPage {
+    color: white;
+    padding-bottom: 20px;
+    cursor: default;
+
+  }
+  
+  .ComingSoonbtn {
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .ComingSoonbtn:hover {
+      color: grey;
+      border: 2px;
+      transition: all 0.2s ease-in-out;
+    }
+  

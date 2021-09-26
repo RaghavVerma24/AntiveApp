@@ -1,0 +1,51 @@
+.ResizePage {
+    text-align: center;
+  }
+  
+  .Resizepngpic {
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .ResizeOops {
+    font-weight: 800;
+    color: #090E14;
+    margin-bottom: 8px;
+  }
+
+  .ResizeOops:hover {
+    font-weight: 800;
+    color: #EDEEEE;
+    margin-bottom: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: default;
+  }
+  
+  .ResizeThisPage {
+    color: white;
+    padding-bottom: 20px;
+    cursor: default;
+
+  }
+  
+  .Resizebtn {
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .Resizebtn:hover {
+      color: grey;
+      border: 2px;
+      transition: all 0.2s ease-in-out;
+    }
+  

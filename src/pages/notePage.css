@@ -1,0 +1,61 @@
+.note-page-container {
+    height: 94vh;
+    overflow-y: hidden;
+  }
+  
+  .comments-container {
+    height: 94vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  .comments-title-container {
+    background-color: white;
+    height: fit-content;
+    position: relative;
+    padding: 15px;
+  }
+  
+  .comments-title {
+    margin: 20px 0;
+    text-align: center;
+    font-family: Montserrat-Bold;
+  }
+  
+  .comments-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: fit-content;
+    transform: translate(-50%, -50%);
+  }
+  
+  .comment-content-container {
+    background-color: rgb(224, 222, 222);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 15px 20px 30px;
+  }
+  
+  .comment-username {
+    font-size: large;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .comment-creation-date {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .comment-content {
+    margin: 10px 0;
+  }
+  
+  .comment-buttons {
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    width: auto;
+    height: 50px;
+  }

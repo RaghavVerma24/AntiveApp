@@ -1,0 +1,15 @@
+.Searchbar {
+  background-color: transparent;
+  text-decoration: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-color: #ff7c5d;
+  /* text-align: center; */
+  justify-content: center;
+  color: white;
+  width: 200px;
+  
+}
+
+

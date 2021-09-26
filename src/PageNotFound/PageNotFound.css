@@ -1,0 +1,49 @@
+.NotFoundPage {
+  text-align: center;
+}
+
+.errorpngpic {
+  width: 100%;
+  height: auto;
+  max-width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.Oops {
+  font-weight: 800;
+  color: #090E14;
+  margin-bottom: 8px;
+}
+
+.Oops:hover {
+  font-weight: 800;
+  color: #edeeee;
+  margin-bottom: 8px;
+  transition: all 0.3s ease-in-out;
+  cursor: default;
+}
+
+.ThisPage {
+  color: white;
+  padding-bottom: 20px;
+  cursor: default;
+}
+
+.pagenotfoundbtn {
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pagenotfoundbtn:hover {
+  color: grey;
+  border: 2px;
+  transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,270 @@
+.ForgotPassContainer {
+  display: flex;
+  width: 80%;
+  height: 100vh;
+  /* background-color: yellow; */
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .ForgotPassContainer {
+    height: 100vh;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-height: 530px) {
+  .ForgotPassContainer {
+    height: 100vh;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+.ForgotPassLeftContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #090e14;
+  height: 94%;
+  border-radius: 10px 0 0 10px;
+  /* border: 2px solid #edeeee; */
+}
+
+@media screen and (max-width: 1150px) {
+  .ForgotPassLeftContainer {
+    display: none;
+  }
+}
+
+.OfficialForgotPassLogo {
+  color: #edeeee;
+  justify-self: flex-start;
+  cursor: pointer;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  /* background: transparent; */
+  top: 2.7rem;
+  margin-left: 2.7rem;
+  position: absolute;
+  z-index: 999;
+}
+
+.Officialform-imgF {
+  width: 400px;
+  height: 100%;
+  margin-left: 3.6rem;
+  /* background-color: black; */
+}
+
+.NeedAnAccount {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #868ba0;
+  width: 80%;
+  text-align: start;
+  background: transparent;
+  position: absolute;
+  top: 90%;
+  z-index: 17;
+  margin-left: 2.7rem;
+}
+
+.ForgotPassRightContainer {
+  border-radius: 0px 10px 10px 0px;
+  background-color: #edeeee;
+  z-index: 999;
+  width: 50%;
+  height: 94%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid #edeeee; */
+}
+
+@media screen and (max-width: 1150px) {
+  .ForgotPassRightContainer {
+    border-radius: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 950px) and (max-height: 570px) {
+  .ForgotPassRightContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+  }
+}
+
+.OfficialForgotPassForm {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #fff; */
+  /* margin-top: 15%; */
+}
+
+.OfficialForgotPassTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: start;
+  width: 80%;
+  margin-bottom: 1rem;
+  margin-top: 2.7rem;
+  margin-left: 2.7rem;
+  color: #090e14;
+  background: transparent;
+}
+
+@media screen and (max-width: 950px) and (max-height: 570px) {
+  .OfficialForgotPassTitle {
+    color: #edeeee;
+  }
+}
+
+.OfficialForgotPassTitleSubTitle {
+  margin-left: 2.7rem;
+  background: transparent;
+  padding-bottom: 20px;
+  margin-bottom: 5rem;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  width: 80%;
+  color: grey;
+  background: transparent;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 950px) and (max-height: 570px) {
+  .OfficialForgotPassTitleSubTitle {
+    margin-bottom: 1rem;
+  }
+}
+
+.OfficialerrorF {
+  background: transparent;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
+
+.Officialform-inputsF {
+  margin-bottom: 0.5rem;
+  width: 80%;
+  background: transparent;
+  align-content: center;
+  align-items: center;
+  text-align: middle;
+  margin-left: 2.7rem;
+  margin-top: 10%;
+}
+
+.Officialform-labelF {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 1px;
+  color: #090e14;
+  font-weight: bold;
+  background: transparent;
+}
+
+@media screen and (max-width: 950px) and (max-height: 570px) {
+  .Officialform-labelF {
+    color: #edeeee;
+  }
+}
+
+.Officialform-inputF {
+  display: block;
+  padding-left: 0px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+}
+
+.Officialform-inputF::placeholder {
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.Officialform-input-btnF {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #282c40;
+  outline: none;
+  margin-left: 2.7rem;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+}
+.Officialform-input-btnF:hover {
+  cursor: pointer;
+  background: #090e14;
+  color: #fff;
+  border: 2px solid #edeeee;
+  transition: all 0.2s ease-out;
+}
+
+.OfficialforgotpassF {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: 80%;
+  text-align: start;
+  background: transparent;
+  padding-top: 10px;
+  margin-left: 2.7rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.OfficialforgotpasstextF {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: auto;
+  text-align: center;
+  background: transparent;
+  padding-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.OfficialNeedAccounttextF {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  color: #868ba0;
+  width: auto;
+  text-align: center;
+  background: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  /* text-align: right;
+      float: right; */
+}
+
+@media screen and (min-width: 1150px) {
+  .OfficialNeedAccounttextF {
+    display: none;
+  }
+}

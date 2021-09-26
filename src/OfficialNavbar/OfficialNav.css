@@ -1,0 +1,11 @@
+.HoverText{
+padding: auto;
+background-color: #081225;
+text-align: center;
+}
+
+/* @media(hover: hover) and (pointer: fine) {
+    nav a:hover {
+        background: yellow;
+    }
+} */
