@@ -1,7 +1,7 @@
 //React stuff
 import React, { useEffect, useState, Component } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Redirect,

@@ -1,5 +1,3 @@
-//React Shit
-
 //Components
 import { ContentAgenda } from "../../Agenda/components/layout/Content";
 import { Tasks } from "../../Agenda/components/Tasks";

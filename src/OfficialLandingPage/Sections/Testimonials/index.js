@@ -1,4 +1,3 @@
-//React Shit
 import React, { lazy } from "react";
 
 //Styling import

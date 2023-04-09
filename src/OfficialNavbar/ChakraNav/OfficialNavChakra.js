@@ -1,4 +1,3 @@
-//React SHit
 import React, { useState } from "react";
 import { useAuth } from "../../Signin/context/AuthContext";
 import { useHistory, Link } from "react-router-dom";

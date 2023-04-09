@@ -4,7 +4,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Tool Number 1",
-  headline: "Have A Clear Agenda",
+  headline: "Have A Agenda",
   description:
     "The main purpose of the agenda is to help students organize and schedule their busy lives, we make it easy for them!",
   buttonLabel: "Get started",

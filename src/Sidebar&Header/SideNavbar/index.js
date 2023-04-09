@@ -36,7 +36,7 @@ const SideNavBar = ({ userProfile }) => {
   // const [loading, setLoading] = useState(false);
   // const [showUnfollow, setShowUnfollow] = useState(false);
   // const [showMore, setShowMore] = useState(false);
-  const { logout } = useAuth();
+  const logout = useAuth();
   const { currentUser } = useAuth();
   const [error, setError] = useState("");
   const history = useHistory();

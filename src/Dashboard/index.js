@@ -1,4 +1,3 @@
-//React Shit
 import React, { useState } from "react";
 
 //Context

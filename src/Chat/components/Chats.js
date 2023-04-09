@@ -1,4 +1,3 @@
-//React Shit
 import React, { useRef, useState, useEffect } from "react";
 import axios from "axios";
 import { useHistory } from "react-router-dom";

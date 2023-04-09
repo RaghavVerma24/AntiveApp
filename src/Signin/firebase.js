@@ -37,5 +37,28 @@ export const database = {
     },
   };
 
+  export const createUserDocument = async (user, additionalData) => {
+    if (!user) return;
+  
+    const userRef = db.doc(`users/${user.uid}`);
+  
+    const snapshot = await userRef.get();
+  
+    if (!snapshot.exists) {
+      const { email } = user;
+      const { displayName } = additionalData;
+  
+      try {
+        await userRef.set({
+          displayName,
+          email,
+          createdAt: new Date(),
+        });
+      } catch (error) {
+        console.log('Error in creating user', error);
+      }
+    }
+  };
+
 export { auth, provider, storage, firebaseApp, apiResponse};
 export default db;

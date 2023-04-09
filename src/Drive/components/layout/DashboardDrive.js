@@ -24,7 +24,6 @@ import * as FaIcons from "react-icons/fa";
 import * as BiIcons from "react-icons/bi";
 
 
-//React Shit
 import React, { useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 

@@ -3,6 +3,7 @@ import { useHistory, Link } from "react-router-dom";
 import { useAuth } from "../Signin/context/AuthContext";
 import "./OfficialSignup.css";
 import signin from "./image/svg-signin.svg";
+import { signup } from "../Signin/context/AuthContext";
 
 function OfficialSignup(props) {
   const emailRef = useRef();
@@ -11,7 +12,6 @@ function OfficialSignup(props) {
   const userNameRef = useRef();
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
-  const { signup } = useAuth();
   const history = useHistory();
 
   async function handleSubmit(e) {
@@ -30,7 +30,8 @@ function OfficialSignup(props) {
       setLoading(true);
       await signup(emailRef.current.value, passwordRef.current.value);
       history.push("/dashboard");
-    } catch {
+    } catch(e) {
+      console.log("Submitting")
       setError("Account Creation Was Unsuccessful");
     }
 

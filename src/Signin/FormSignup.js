@@ -22,6 +22,8 @@ export default function FormSignup(props) {
   async function handleSubmit(e) {
     e.preventDefault();
 
+    console.log("Submitting")
+
     if (passwordRef.current.value !== password2Ref.current.value) {
       return setError("Please Confirm That Your Passwords Match");
     }
@@ -36,6 +38,7 @@ export default function FormSignup(props) {
       await signup(emailRef.current.value, passwordRef.current.value)
       history.push("/dashboard");
     } catch {
+      console.log("Submitting")
       setError("Account Creation Was Unsuccessful");
     }
 

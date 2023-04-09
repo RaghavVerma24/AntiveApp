@@ -1,4 +1,3 @@
-//React shit
 import React, { useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 

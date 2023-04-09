@@ -7,17 +7,25 @@ export function useAuth() {
   return useContext(AuthContext);
 }
 
+export function signup(email, password) {
+    return auth.createUserWithEmailAndPassword(email, password);
+}
+
+export function login(email, password) {
+    return auth.signInWithEmailAndPassword(email, password);
+}
+
 export function AuthProvider({ children }) {
   const [currentUser, setCurrentUser] = useState();
   const [loading, setLoading] = useState(true);
 
-  function signup(email, password, username) {
-    return auth.createUserWithEmailAndPassword(email, password);
-  }
+    function signup(email, password) {
+        return auth.createUserWithEmailAndPassword(email, password);
+    }
 
-  function login(email, password) {
-    return auth.signInWithEmailAndPassword(email, password);
-  }
+    function login(email, password) {
+        return auth.signInWithEmailAndPassword(email, password);
+    }
 
   function logout() {
     return auth.signOut();
@@ -45,7 +53,7 @@ export function AuthProvider({ children }) {
   }, [currentUser]);
 
   const value = {
-    currentUser,
+    currentUser, 
     login,
     signup,
     logout,

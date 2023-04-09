@@ -37,7 +37,7 @@ const Background = styled.div`
   width: 100vw;
   height: 90vh;
   z-index: -99;
-  background-color: #090e14;
+  background-color: #white;
   background-size: auto 100vh;
   background-repeat: no-repeat;
 `;
@@ -81,12 +81,13 @@ const Triangle = styled.span`
 `;
 
 const Content = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10rem 10rem;
-  /* margin-bottom: 10rem; */
-  position: relative;
+  // display: flex;
+  // background-color: white;
+  // justify-content: space-between;
+  // align-items: center;
+  // margin: 10rem 10rem;
+  // /* margin-bottom: 10rem; */
+  // position: relative;
   z-index: 99;
   @media only Screen and (max-width: 64em) {
     margin: 10rem calc(4rem + 5vw);
@@ -329,10 +330,10 @@ const Services = () => {
         <Triangle id="triangle" />
       </Background>
 
-      <Content ref={addToRefs}>
+      <Content ref={addToRefs} >
         <TextBlock
           topic="Tool 1"
-          title={<h1>Have a clear Agenda!</h1>}
+          title={<h1>Have a  Agenda!</h1>}
           subText={
             <h5>
               The main purpose of the agenda is to help students organize and

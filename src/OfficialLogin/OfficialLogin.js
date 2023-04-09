@@ -5,13 +5,13 @@ import "./OfficialLoginElements.css";
 import db, { provider, auth, firebaseApp } from "../Signin/firebase";
 import { toastInfo } from "./toastInfo";
 import loginsvg from "./image/login.svg";
+import { login } from "../Signin/context/AuthContext";
 
 function OfficialLogin() {
   const emailRef = useRef();
   const passwordRef = useRef();
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
-  const { login } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const history = useHistory();
@@ -37,18 +37,16 @@ function OfficialLogin() {
     try {
       setError("");
       setLoading(true);
-      await login(emailRef.current.value, passwordRef.current.value).then(
-        () => {
-          setEmail("");
-          setPassword("");
-        }
-      );
+      console.log("Logging In")
+      await login(emailRef.current.value, passwordRef.current.value);
+      console.log("Authenticated")
       history.push("/dashboard");
     } catch {
       setError("Failed To Log In");
     }
 
     setLoading(false);
+    history.push("/dashboard");
   }
   return (
     <>

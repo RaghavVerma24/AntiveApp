@@ -1,4 +1,3 @@
-//React shit
 import React, { useState, useEffect } from "react";
 
 //Import Sections
@@ -56,7 +55,7 @@ const OfficialHome = () => {
       <TwoColHorizontalFeaturesthree />
       <TwoColHorizontalFeaturesfour />
       {/* <Testimonials /> */}
-      <NewTestTestimonial />
+      {/* <NewTestTestimonial /> */}
       <ServicesLandingPage />
       <SingleCol />
     </Container>

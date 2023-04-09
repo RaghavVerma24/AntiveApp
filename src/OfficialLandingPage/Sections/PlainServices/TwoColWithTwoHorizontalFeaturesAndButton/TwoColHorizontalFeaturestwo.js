@@ -10,7 +10,7 @@ import { ReactComponent as SvgDotPattern } from "../images/dot-pattern.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/cpu.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/star.svg";
 
-const Container = tw.div`relative bg-primary-900 w-full`;
+const Container = tw.div`relative bg-primary-800 w-full`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24 items-center`;
 const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
 const ImageColumn = tw(Column)`md:w-6/12 flex-shrink-0 relative pr-6 pl-6`;
@@ -38,7 +38,7 @@ const Subheading = tw(
 )`text-center md:text-left text-primary-600 font-black`;
 const Heading = tw(
   SectionHeading
-)`mt-4 text-primary-500 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
+)`mt-4 text-[#090e14] font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
 const Description = tw.p`mt-8 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100`;
 
 const Features = tw.div`mx-auto md:mx-0 flex flex-col lg:flex-row max-w-xs lg:max-w-none`;
@@ -55,7 +55,7 @@ const FeatureIconContainer = styled.div`
     ${tw`w-5 h-5`}
   }
 `;
-const FeatureHeading = tw.div`ml-3 font-bold text-xl`;
+const FeatureHeading = tw.div`ml-3 text-[#090e14] font-bold text-xl`;
 
 const FeatureDescription = tw.div`mt-4 text-center md:text-left text-gray-600 leading-relaxed`;
 
