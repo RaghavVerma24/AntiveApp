@@ -67,66 +67,6 @@ export default function Dashboard() {
             </div>
           </div>
         </div>
-        {/* <div className="ChatListContainer">
-        <ChatEngine
-          projectID="dd16ef6f-3567-4699-ab02-b0e7370f7d3e"
-          userName={currentUser.email}
-          userSecret={currentUser.uid}
-          height="100vh"
-          // renderChatList={(chatAppState) => {}}
-          renderIsTyping={(typers) => {}}
-          // renderChatCard={(chat, index) => {}}
-          // renderNewChatForm={(creds) => {}}
-          renderChatFeed={(chatAppState) => {}}
-          renderChatHeader={(chat) => {}}
-          renderMessageBubble={(
-            creds,
-            chat,
-            lastMessage,
-            message,
-            nextMessage
-          ) => {}}
-          renderSendingMessage={(
-            creds,
-            chat,
-            lastMessage,
-            message,
-            nextMessage
-          ) => {}}
-          renderIsTyping={(typers) => {}}
-          renderNewMessageForm={(creds, chatId) => {}}
-          renderChatSettings={(chatAppState) => {}}
-          renderChatSettingsTop={(creds, chat) => {}}
-          renderPeopleSettings={(creds, chat) => {}}
-          renderPhotosSettings={(chat) => {}}
-          renderOptionsSettings={(creds, chat) => {}}
-        />
-      </div> */}
-      {/* </div> */}
     </>
-    // <>
-    //   <div className="DashboardContainer">
-    //     <div className="TopSection">
-    //       <div className="TopContainer">
-    //         <div className="BudgetContainer">
-    //           <h1 className="BudgetTitleText">Budget</h1>
-    //           <BudgetDashPage />
-    //         </div>
-    //       </div>
-    //       <div className="RightContainer">
-    //         <div className="InboxContainer">
-    //           {/* <h1 className="AgendaTitleText">Agenda</h1> */}
-    //           <TaskDashPage />
-    //         </div>
-    //       </div>
-    //     </div>
-    //     <div className="BottomContainer">
-    //       <div className="DriveContainer">
-    //         {/* <h2>This is where the files will be!</h2> */}
-    //         <DriveDashPage />
-    //       </div>
-    //     </div>
-    //   </div>
-    // </>
   );
 }

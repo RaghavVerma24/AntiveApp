@@ -46,27 +46,6 @@ import OfficialLogin from "./OfficialLogin/OfficialLogin";
 import OfficialSignup from "./OfficialSignup/OfficialSignup";
 import OfficialForgotPass from "./OfficialForgotPass/OfficialForgotPass";
 
-//Discarded Shit && Styles:
-//import SaaSProductLandingPage from "./OfficialLandingPage/demos/SaaSProductLandingPage"
-// import GlobalStyle, {ParentContainer} from "./CommunityTab/styles/globalStyle";
-// import Profile from "./CommunityTab/pages/Profile";
-// import HomeTab from "./CommunityTab/pages/Home";
-// import Explore from "./CommunityTab/pages/Explore";
-// import EditAccount from "./CommunityTab/pages/EditAccount";
-// import NotesNewPages from "./pages/note";
-// import db from "./Signin/firebase";
-// import { auth, firebase } from "./Signin/firebase";
-// import { setUser } from "./Messaging/actions/userAction";
-// import SidebarHome from "./Messaging/SidebarChat/SidebarHome";
-// import Chat from "./Messaging/Chat/Chat";
-// import { ToastContainer } from "react-toastify";
-// import { toastInfo } from "./Messaging/shared/toastInfo";
-// import Hidden from "@material-ui/core/Hidden";
-// import CircularProgress from "@material-ui/core/CircularProgress";
-// import LinearProgress from "@material-ui/core/LinearProgress";
-// import CommunityTab from "./pages/CommunityTab";
-// import "react-toastify/dist/ReactToastify.css";
-
 export function App() {
   return (
     <Router>
@@ -76,7 +55,6 @@ export function App() {
           <Route path="/Landing" component={ChakraNavPage} exact />
           <Route path="/signup" component={OfficialSignup} exact />
           <Route path="/login" component={OfficialLogin} exact />
-          {/* <Route path="/login" component={Login} exact /> */}
           <Route path="/forgot-password" component={OfficialForgotPass} exact />
           <Route path="/termsofservice" component={TOS} exact />
           <Route path="/privacypolicy" component={PrivacyPolicy} exact />
