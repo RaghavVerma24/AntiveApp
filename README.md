@@ -1,8 +1,9 @@
 Student Productivity App
 ========================
 
-![image](https://user-images.githubusercontent.com/59304737/234459434-950badc5-7165-482e-aa53-5cd0ce0648dc.png)
-![image](https://user-images.githubusercontent.com/59304737/234460563-5f97e185-cda6-4656-a3cc-d8967e0755bb.png)
+![React](https://img.icons8.com/color/48/000000/react-native.png)
+![Firebase](https://img.icons8.com/color/48/000000/firebase.png)
+![Tailwind CSS](https://img.icons8.com/color/48/000000/tailwindcss.png)
 
 A student productivity app built with React and Firebase that includes features such as chat, budgeting tool, agenda, and file storage. This app aims to help students stay organized and productive by providing a centralized platform for managing their tasks, expenses, files, and communication.
 
