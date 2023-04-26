@@ -1,7 +1,10 @@
 Student Productivity App
 ========================
 
-![React](https://img.shields.io/badge/built%20with-React-blue) ![Firebase](https://img.shields.io/badge/built%20with-Firebase-orange)
+Technologies
+--------
+[![React](https://img.shields.io/badge/Built%20with-React-blue.svg)](https://reactjs.org/)
+[![Firebase](https://img.shields.io/badge/Built%20with-Firebase-orange.svg)](https://firebase.google.com/)
 
 A student productivity app built with React and Firebase that includes features such as chat, budgeting tool, agenda, and file storage. This app aims to help students stay organized and productive by providing a centralized platform for managing their tasks, expenses, files, and communication.
 
