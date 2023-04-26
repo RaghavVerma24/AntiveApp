@@ -1,12 +1,15 @@
 Student Productivity App
 ========================
 
-Technologies
---------
-[![React](https://img.shields.io/badge/Built%20with-React-blue.svg)](https://reactjs.org/)
-[![Firebase](https://img.shields.io/badge/Built%20with-Firebase-orange.svg)](https://firebase.google.com/)
-
 A student productivity app built with React and Firebase that includes features such as chat, budgeting tool, agenda, and file storage. This app aims to help students stay organized and productive by providing a centralized platform for managing their tasks, expenses, files, and communication.
+
+Technologies Used
+-----------------
+
+-   React: A popular JavaScript library for building user interfaces.
+-   Firebase: A cloud-based platform for building web and mobile apps that provides authentication, real-time database, storage, and other backend services.
+
+![React](https://img.icons8.com/color/48/000000/react-native.png) ![Firebase](https://img.icons8.com/color/48/000000/firebase.png)
 
 Features
 --------
@@ -58,12 +61,6 @@ To start the project or clone it, follow the steps below:
     ```
 
 1.  Open your web browser and navigate to `http://localhost:3000` to access the app.
-
-Technologies Used
------------------
-
--   React: A popular JavaScript library for building user interfaces.
--   Firebase: A cloud-based platform for building web and mobile apps that provides authentication, real-time database, storage, and other backend services.
 
 Contributing
 ------------
