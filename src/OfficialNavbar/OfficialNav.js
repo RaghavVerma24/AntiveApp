@@ -249,8 +249,8 @@ const OfficialNav = () => {
     setError("");
 
     try {
-      await logout();
-      history.push("/login");
+      // await logout();
+      history.push("/");
       // window.location.reload(false);
     } catch {
       setError("Failed to log out");
@@ -317,11 +317,11 @@ const OfficialNav = () => {
             <Details clicked={profileClick}>
               <Name>
                 <h4>
-                  {currentUser.displayName ||
+                  {/* {currentUser.displayName ||
                     currentUser.email.substring(
                       0,
                       currentUser.email.lastIndexOf("@")
-                    )}
+                    )} */}
                 </h4>
 
                 <a>
